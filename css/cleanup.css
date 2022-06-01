@@ -1,1 +1,18 @@
 /* write your override styles here */
+body #wall {
+    width: 950px;
+    border: 18px solid rgb(141, 101, 101);
+    border-bottom: 58px solid rgb(115, 132, 170);
+    height: 600px;
+}
+
+
+#wall .tag-1 {
+    display: none;
+}
+
+body #wall #tag-4 {
+    background: url(../images/tag-4.png) no-repeat;
+    z-index: 5;
+    display: block;
+}
